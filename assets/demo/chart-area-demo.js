@@ -27,20 +27,20 @@ var myLineChart = new Chart(ctx, {
     scales: {
       xAxes: [{
         time: {
-          unit: 'date'
+          unit: 'percentage'
         },
         gridLines: {
           display: false
         },
         ticks: {
-          maxTicksLimit: 7
+          maxTicksLimit: 10
         }
       }],
       yAxes: [{
         ticks: {
-          min: 0,
-          max: 40000,
-          maxTicksLimit: 5
+          min: 85,
+          max: 95,
+          maxTicksLimit: 8
         },
         gridLines: {
           color: "rgba(0, 0, 0, .125)",
